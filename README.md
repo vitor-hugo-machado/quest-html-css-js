@@ -12,5 +12,3 @@ Este repositório contém um formulário com validação feita com javascript pu
 
 Este projeto foi desenvolvido com o propósito de colocar em prática as técnicas do curso.
 
-## observação
-não foi possível fazer toda a validação apenas com o conteúdo do módulo intermediário, foi preciso usar métodos que encontrei na documentação do javascript.
