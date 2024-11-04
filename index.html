@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest HTML + CSS + JavaScript</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main>
+        <div class="texto-lateral">
+            <h2>FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h2>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+
+        <form class="formulario" method="get" action="pagina-02.html">
+            <input class="input-nome input" type="text" name="nome" placeholder="Nome completo *">
+            <span class="nome-required">campo obrigatório</span>
+
+            <input class="input-email input" type="email" name="email" placeholder="Email *">
+            <span class="email-required">campo obrigatório</span>
+
+            <input class="input-telefone input" type="tel" name="telefone" placeholder="Telefone *">
+            <span class="telefone-required">campo obrigatório</span>
+
+            <textarea class="textarea" name="mensagem" cols="30" rows="5" placeholder="Mensagem *"></textarea>
+            <span class="mensagem-required">campo obrigatório</span>
+
+            <span class="campos-obrigatorios">*campos obrigatórios</span>
+
+            <button type="submit" class="botao-enviar">Enviar</button>
+        </form>
+
+    </main>
+
+    <script src="./src/js/validacao.js"></script>
+</body>
+
+</html>

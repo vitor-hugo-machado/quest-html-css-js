@@ -1,0 +1,101 @@
+main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    display: relative;
+    padding: 10%;
+    min-width: 320px;
+}
+
+.texto-lateral{
+    width: 500px;
+    color: #fff;
+    margin-right: 100px;
+}
+
+.texto-lateral h2{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.texto-lateral p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 550px;
+    right: 0px;
+    background-color: #fff;
+    padding: 0px 40px 15px;
+    justify-content: center;
+}
+
+input{
+    height: 45px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px;
+    border: 1.5px solid black;
+    margin-top: 20px;
+}
+
+.input{
+    border: 1.5px solid black;
+}
+
+.textarea{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px;
+    resize: none;
+    margin-top: 20px;
+}
+
+
+.campos-obrigatorios{
+    margin-top: 5px;
+}
+
+
+.botao-enviar{
+    height: 48px;
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 30px ;
+    cursor: pointer;
+}
+
+
+
+.nome-required, .email-required, .telefone-required, .mensagem-required{
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+
+}
+
+.mostrar{
+    display: block;
+}
+
+.input-invalido{
+    border: 1.5px solid red
+}
+

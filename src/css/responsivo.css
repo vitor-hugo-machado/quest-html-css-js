@@ -1,0 +1,34 @@
+
+@media(max-width: 642px){
+
+    main{
+        flex-direction: column-reverse;
+        width: 100vw;
+        padding: 0;
+        align-content: center;
+        height: fit-content;
+    }
+
+    .formulario{
+        width: 280px;
+        height: 420px;
+        padding: 8px;
+        margin: 15px auto;
+    }
+
+    input{
+        height: 30px;
+    }
+
+    .texto-lateral{
+        width: 300px;
+        text-align: center;
+        margin: 0;
+    }
+    .texto-lateral h2{
+        font-size: 23px;
+    }
+    .texto-lateral p{
+        font-size: 18px;
+    }
+}
