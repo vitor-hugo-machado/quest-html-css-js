@@ -6,7 +6,7 @@ Este repositório contém um formulário com validação feita com javascript pu
 
 - **HTML**: Estruturação do conteúdo e elementos da página.
 - **CSS**: Estilização visual e responsividade.
-- **JavaScript**: Validação do formulário, usando lógica e manipualndo elementos através do método DOM
+- **JavaScript**: Validação do formulário, usando lógica e manipualndo elementos através do método DOM.
 
 ## Objetivo
 
