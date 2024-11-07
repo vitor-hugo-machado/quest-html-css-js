@@ -2,6 +2,8 @@ const form = document.getElementsByClassName("formulario")[0];
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
+
+    console.log(e)
     if (checarInputs()) {
         form.submit();
     }

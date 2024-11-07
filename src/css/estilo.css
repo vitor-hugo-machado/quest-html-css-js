@@ -1,3 +1,7 @@
+body{
+    background-color: #4588f9;
+}
+
 main{
     display: flex;
     height: 100vh;
